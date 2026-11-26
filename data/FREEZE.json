@@ -1,0 +1,49 @@
+{
+  "frozen_on": "2026-11-26",
+  "status": "frozen before any judge was run on test claims",
+  "amendments": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "counts": {
+    "items": 380,
+    "set_A_scored": 180,
+    "set_A_unsupported": 5,
+    "set_B": 200,
+    "set_B_unsupported": 102,
+    "refusal_excluded": 17
+  },
+  "files": {
+    "code/prompts.py": "3edd3f5d59e09b23b3eabb342eb4bd5a8e028114b66e67585324d0d7179cc81b",
+    "code/run_judges.py": "045b9c6b78fc5b786f8a14dd39b25bed4014ec904f95f8506bd7d33fc78a4c26",
+    "code/analysis.py": "3c3545cc1ef173d96a32d35f29c2b01a558e6fb8a92541c09ac1bb85b802af92",
+    "code/build_items.py": "5453ed474c3407dec34ae5d9fe72ab6c6c2120bb581a55de99faf54be42d0604",
+    "code/label_tools.py": "dbf74a252d552d079e5c439f65828cafb849acb9ad58cb3e3876ab6e433d6879",
+    "code/qkeys.py": "fd1dc1da8d380ef9c4c22624ac8ff49f9e5bf42dc907d1c987bd54a99fc36533",
+    "code/run_generate.py": "05a8a12e7bf4e9b6e2ec5e70394d42578b9dc53712b9280a6bf80c6370e6626a",
+    "code/segment_claims.py": "e465931351841732496b1d528dacf114572e2b41d0a68ba6cfafa65a77e0378f",
+    "code/make_setB.py": "80be26ff0ce3f2a24d1b0db008568b79875589c92798b94292d394cb3fd66fae",
+    "data/items.csv": "adbdfb0769717d28f0fc734025f9712ba8384f5ef20b5d4dfcc0cc84fdef2759",
+    "data/labels/gold.csv": "6972cda6c1b77e797eff12aeaf5e56a3da2490b3a038873f5a065a6fff7be1d8",
+    "data/labels/gold_excluded.csv": "be5cad7b14ded89dc701aae003a71c599c69197d545333fc67f80991fb5c3d29",
+    "data/claims/claims_A.csv": "ec80338852a55fed0058f805da7a51053717aa853dbb8cfdbbb08228bd6af61a",
+    "data/claims/claims_B.csv": "e9bbd663ff060d10541a9e2db79fd60a78e292a7a5c40243fac453f4a8ce8b6f",
+    "data/claims/refusal_excluded.csv": "deb314d9c45897a291345bb0a243061b726001a735d2f97242ca8e4157b30731",
+    "data/corpus/selected.csv": "c75d52a934b332c178bd775431e1440765bef54f2216bee4bee0e86c61b61a49",
+    "data/setA/answers.jsonl": "93c48384c9240752756f2412387bc410c7f517ae98a9d0777c937a5ac78f37a6",
+    "writing/4_notes/protocol_amendments.md": "0355eefbb2e5ba75932b4f51bd691ed00cfbe0650c685c3900fb95f0d43d9dee"
+  },
+  "models": {
+    "Meta-Llama-3-8B-Instruct-Q4_K_M.gguf": "8ba9baf3a7345f705a11878397500fb25174034f0fd784e83aa4a96aaa47735f",
+    "qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf": "dfce12e3862a5283ccfb88221b48480e58745165de856439950d0f22590580db",
+    "qwen2.5-7b-instruct-q4_k_m-00002-of-00002.gguf": "539cf93f78e887edea1c04e2d7d8cdaca9d01dae9c9025bcb8accbe29df3d72a"
+  },
+  "judge_settings": {
+    "sampled": "temperature 0.3, top_p 0.9, seeds 17/29/43, prompts P1-P3, max tokens 8, n_ctx 4096, stop \"\\n\"",
+    "greedy": "temperature 0, seed 17, prompts P1-P3 (Amendment 5)",
+    "runtime": "llama-cpp-python 0.3.38, Q4_K_M, MacBook Pro M4 Pro, full Metal offload"
+  }
+}
