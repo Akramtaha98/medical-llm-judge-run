@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # One-time setup on the H200 server. Needs nvcc (CUDA toolkit) for the CUDA build.
 set -euo pipefail
+export HOME=${HOME:-/home/$(id -un)}
 export PATH=$HOME/.local/bin:$PATH
 rm -rf ~/venvs/medllm; uv venv ~/venvs/medllm --python 3.12 && source ~/venvs/medllm/bin/activate
 # nvcc: set CUDA_HOME to a CUDA toolkit dir that contains bin/nvcc (find with: find / -name nvcc 2>/dev/null)

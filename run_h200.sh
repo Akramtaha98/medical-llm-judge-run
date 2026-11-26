@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Runs the 4 (judge x arm) jobs in parallel on the H200. Each job is resumable; rerun to resume.
 set -euo pipefail
+export HOME=${HOME:-/home/$(id -un)}
 cd "$(dirname "$0")"; export CUDA_VISIBLE_DEVICES=0; source ~/venvs/medllm/bin/activate
 M=data/models; OUT=data/runs_h200; mkdir -p $OUT logs
 LL=$M/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf; QW=$M/qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf
