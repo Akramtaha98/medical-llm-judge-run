@@ -1,0 +1,13 @@
+{
+  "n_excluded_refusal": 17,
+  "counts": {
+    "A:supported": 175,
+    "A:unsupported": 5,
+    "B:supported": 98,
+    "B:unsupported": 102
+  },
+  "set_A_unsupported": 5,
+  "minimum_yield": 0,
+  "minimum_yield_met": true,
+  "action": "proceed to judge runs"
+}

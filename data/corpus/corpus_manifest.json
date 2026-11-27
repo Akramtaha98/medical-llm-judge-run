@@ -1,0 +1,25 @@
+{
+  "medquad_commit": "577bd37b96c02d1833b2c9eed2de9f96964e96cb",
+  "seed": 2026,
+  "word_range": [
+    80,
+    300
+  ],
+  "n_dev": 12,
+  "n_test": 100,
+  "quota_by_source": {
+    "CancerGov": 29,
+    "NHLBI": 32,
+    "NIDDK": 51
+  },
+  "status_counts": {
+    "excluded:passage_too_long": 985,
+    "selected": 112,
+    "excluded:passage_too_short": 329,
+    "excluded:not_selected_for_document": 673,
+    "reserve": 182,
+    "excluded:near_duplicate_passage": 20,
+    "excluded:duplicate_question": 179
+  },
+  "selected_sha256": "c75d52a934b332c178bd775431e1440765bef54f2216bee4bee0e86c61b61a49"
+}

@@ -1,0 +1,21 @@
+claim_id,generator,R1,R2,R3,final,claim_text
+A-CancerGov-0000003_4-4-01,llama3_8b,supported,supported,,supported,"The passage does not specifically mention Childhood Rhabdomyosarcoma, but it does discuss factors that affect prognosis and treatment options for rhabdomyosarcoma in general."
+A-CancerGov-0000004_3-4-01,llama3_8b,supported,supported,,supported,"The passage does not specifically mention the outlook for AIDS-Related Lymphoma, but it does mention that the prognosis (chance of recovery) and treatment options depend on certain factors, including the stage of the cancer and the number of CD4 lymphocytes in the blood."
+A-CancerGov-0000004_4-2-02,llama3_8b,unassessable,supported,supported,supported,"The passage does not mention Szary Syndrome, as it is not part of the original passage."
+A-CancerGov-0000006_6-5-02,qwen25_7b,unassessable,supported,supported,supported,"However, the passage does not provide specific details or statistics about the outlook for this particular type of tumor."
+A-NIDDK-0000008-2-01,qwen25_7b,unassessable,supported,supported,supported,The passage does not provide information about Hyperthyroidism.
+A-CancerGov-0000024_8-8-01,llama3_8b,unassessable,supported,supported,supported,The passage does not specifically mention research or clinical trials for Salivary Gland Cancer.
+A-CancerGov-0000024_8-8-02,llama3_8b,unassessable,supported,unsupported,unsupported,"The passage only provides general information about clinical trials and mentions that patients can enter clinical trials before, during, or after starting their cancer treatment, but it does not provide information on specific types of cancer, including Salivary Gland Cancer."
+A-NIDDK-0000049-2-01,llama3_8b,unassessable,supported,supported,supported,"The passage does not explicitly answer the question about Maturity-onset Diabetes of the Young, as it only discusses Neonatal Diabetes Mellitus (NDM)."
+A-NIDDK-0000054-14-01,llama3_8b,unassessable,supported,unsupported,unsupported,This passage does not directly answer the question about how to diagnose prevent diabetes problems or keep diabetes under control.
+A-NIDDK-0000128-4-01,qwen25_7b,supported,supported,,supported,The passage describes symptoms for both diverticulosis and diverticulitis.
+A-NIDDK-0000131-12-02,llama3_8b,unassessable,unassessable,,unassessable,"However, the question ""What to do for What I need to know about Lactose Intolerance?"" doesn't make sense."
+A-NIDDK-0000131-12-03,llama3_8b,unassessable,unsupported,unsupported,unsupported,"The question ""What to do for What I need to know about Lactose Intolerance?"" seems like a repeat of the title ""What I need to know about Lactose Intolerance""."
+A-NIDDK-0000136-7-02,qwen25_7b,unassessable,supported,supported,supported,"However, the passage does not specifically address how to diagnose kidney disease."
+A-NIDDK-0000158-13-02,llama3_8b,unassessable,unsupported,unsupported,unsupported,"However, the passage does not answer the question ""What to do for Kidney Failure: What to Expect?"" as it does not provide information on what to expect or what to do for kidney failure."
+A-NIDDK-0000158-13-03,llama3_8b,supported,supported,,supported,The passage only discusses the importance of nutrition for people with kidney failure and provides some dietary guidelines for those on dialysis.
+A-NIDDK-0000162-3-01,llama3_8b,unassessable,supported,supported,supported,The passage does not specifically answer the question about nutrition for advanced chronic kidney disease in adults.
+A-NIDDK-0000162-3-02,llama3_8b,supported,supported,,supported,The passage only provides general information about the progression of CKD and its effects on the body.
+A-NIDDK-0000192-8-01,llama3_8b,unassessable,unsupported,unsupported,unsupported,"Unfortunately, the passage does not provide specific information on what to do for viral hepatitis beyond discussing the types of viruses, modes of transmission, and available vaccines."
+A-NIDDK-0000206-10-01,llama3_8b,unassessable,supported,supported,supported,The passage does not answer the question about what to do for Perineal Injury in Males.
+A-NIDDK-0000206-10-02,llama3_8b,unassessable,supported,supported,supported,"The passage only discusses constipation and its prevention through a high-fiber diet, and does not mention perineal injuries or any related information."

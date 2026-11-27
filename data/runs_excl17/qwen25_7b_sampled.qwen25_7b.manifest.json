@@ -1,0 +1,15 @@
+{
+  "judge_id": "qwen25_7b",
+  "model_path": "qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf",
+  "sha256": "dfce12e3862a5283ccfb88221b48480e58745165de856439950d0f22590580db",
+  "arm": "sampled",
+  "temperature": 0.3,
+  "top_p": 0.9,
+  "max_tokens": 8,
+  "stop": [
+    "\n"
+  ],
+  "n_ctx": 4096,
+  "llama_cpp_python": "0.3.38",
+  "started": "2026-11-27T13:43:42"
+}

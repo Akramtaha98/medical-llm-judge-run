@@ -1,0 +1,16 @@
+{
+  "n_items": 397,
+  "raw_agreement": 0.9496221662468514,
+  "cohens_kappa": 0.8799116730693608,
+  "n_disagreements": 20,
+  "label_counts_reviewer1": {
+    "supported": 281,
+    "unsupported": 101,
+    "unassessable": 15
+  },
+  "label_counts_reviewer2": {
+    "supported": 286,
+    "unsupported": 110,
+    "unassessable": 1
+  }
+}

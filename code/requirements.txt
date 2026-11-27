@@ -1,0 +1,5 @@
+numpy
+pandas
+matplotlib
+llama-cpp-python
+huggingface_hub

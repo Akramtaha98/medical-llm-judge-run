@@ -1,0 +1,142 @@
+{
+ "n_excluded": 17,
+ "n_excluded_unsupported": 5,
+ "n_set_a_scored": 180,
+ "n_set_a_unsupported": 5,
+ "llama3_8b": {
+  "excluded17": {
+   "n_pos": 5,
+   "tp": 5,
+   "sens": 1.0,
+   "sens_ci": [
+    0.4781762498950185,
+    1.0
+   ],
+   "n_neg": 12,
+   "fp": 10,
+   "spec": 0.16666666666666663,
+   "spec_ci": [
+    0.020862525460092384,
+    0.48413774868596704
+   ],
+   "always_approved_unsupported": 0
+  },
+  "setA_scored180": {
+   "n_pos": 5,
+   "tp": 0,
+   "sens": 0.0,
+   "sens_ci": [
+    0.0,
+    0.5218237501049814
+   ],
+   "n_neg": 175,
+   "fp": 2,
+   "spec": 0.9885714285714285,
+   "spec_ci": [
+    0.9593277729055696,
+    0.9986129379149014
+   ],
+   "always_approved_unsupported": 5
+  },
+  "setA_restored197": {
+   "n_pos": 10,
+   "tp": 5,
+   "sens": 0.5,
+   "sens_ci": [
+    0.18708602844739855,
+    0.8129139715526015
+   ],
+   "n_neg": 187,
+   "fp": 12,
+   "spec": 0.9358288770053476,
+   "spec_ci": [
+    0.8905894686633961,
+    0.9664051919642312
+   ],
+   "always_approved_unsupported": 5
+  },
+  "greedy_restored197_per_prompt": {
+   "P1": {
+    "tp": 5,
+    "n_pos": 10
+   },
+   "P2": {
+    "tp": 5,
+    "n_pos": 10
+   },
+   "P3": {
+    "tp": 5,
+    "n_pos": 10
+   }
+  },
+  "invalid_on_excluded": 0
+ },
+ "qwen25_7b": {
+  "excluded17": {
+   "n_pos": 5,
+   "tp": 2,
+   "sens": 0.4,
+   "sens_ci": [
+    0.052744950526316906,
+    0.8533672003653268
+   ],
+   "n_neg": 12,
+   "fp": 4,
+   "spec": 0.6666666666666667,
+   "spec_ci": [
+    0.34887550641881554,
+    0.9007539088504167
+   ],
+   "always_approved_unsupported": 3
+  },
+  "setA_scored180": {
+   "n_pos": 5,
+   "tp": 0,
+   "sens": 0.0,
+   "sens_ci": [
+    0.0,
+    0.5218237501049814
+   ],
+   "n_neg": 175,
+   "fp": 4,
+   "spec": 0.9771428571428571,
+   "spec_ci": [
+    0.9425132611248275,
+    0.9937378856146113
+   ],
+   "always_approved_unsupported": 4
+  },
+  "setA_restored197": {
+   "n_pos": 10,
+   "tp": 2,
+   "sens": 0.2,
+   "sens_ci": [
+    0.02521072632683336,
+    0.5560954623076415
+   ],
+   "n_neg": 187,
+   "fp": 8,
+   "spec": 0.9572192513368984,
+   "spec_ci": [
+    0.9174476629633807,
+    0.98135206054304
+   ],
+   "always_approved_unsupported": 7
+  },
+  "greedy_restored197_per_prompt": {
+   "P1": {
+    "tp": 2,
+    "n_pos": 10
+   },
+   "P2": {
+    "tp": 3,
+    "n_pos": 10
+   },
+   "P3": {
+    "tp": 2,
+    "n_pos": 10
+   }
+  },
+  "invalid_on_excluded": 0
+ }
+}

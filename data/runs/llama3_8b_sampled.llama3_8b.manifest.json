@@ -1,0 +1,15 @@
+{
+  "judge_id": "llama3_8b",
+  "model_path": "Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "sha256": "8ba9baf3a7345f705a11878397500fb25174034f0fd784e83aa4a96aaa47735f",
+  "arm": "sampled",
+  "temperature": 0.3,
+  "top_p": 0.9,
+  "max_tokens": 8,
+  "stop": [
+    "\n"
+  ],
+  "n_ctx": 4096,
+  "llama_cpp_python": "0.3.38",
+  "started": "2026-11-26T22:47:31"
+}

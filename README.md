@@ -64,6 +64,11 @@ data/
   results.json        primary analysis output
   results_extra.json  exploratory analysis output
   FREEZE.json         SHA-256 of every frozen file
+  items_excluded17.csv, runs_excl17/, results_exclusion.json
+                      sensitivity analysis on the 17 refusal-type Set A claims excluded at the gold stage
+  claims/, corpus/, setA/   segmented claims, selected questions and passages, generated answers
+  labels/             gold labels, reviewer ratings (blind IDs) and adjudication
+docs/                 annotation guide
 notes/                protocol freeze record and amendments
 h200_package/         optional GPU run package (not used for the reported results)
 ```
@@ -91,6 +96,10 @@ python code/analysis.py --gold data/labels/gold.csv \
 python code/analysis_extra.py --gold data/labels/gold.csv \
   --runs data/runs/sampled_all.jsonl --greedy data/runs/greedy_all.jsonl \
   --items data/items.csv --out data/results_extra.json --misses data/misses.csv
+
+# sensitivity analysis: restore the 17 excluded claims (run on the Mac, needs the GGUF files)
+./run_exclusion_sensitivity.sh
+python code/analysis_exclusion.py data
 ```
 
 Model file hashes: Llama `8ba9baf3...`, Qwen `dfce12e3...` (full values in the run manifests). Runs use fixed seeds, but other hardware or builds can change individual outputs.
